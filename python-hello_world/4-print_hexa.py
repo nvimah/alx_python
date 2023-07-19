@@ -2,8 +2,7 @@
 number= range(0,99)
 #loop around the numbers
 for i in range(0,99):
-    print(i, end="")
     hex_value= "{0:x}".format(i)
 #convert the numbers to hexadecimal
-    print(" = 0*{}" .format(hex_value))
+    print(i,"= 0*{}" .format(hex_value) )
 #print with a string format 
