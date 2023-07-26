@@ -3,4 +3,4 @@ def fibonacci_sequence(n):
     for _ in range(n):
         yield a
         a, b = b, a + b
-print (list(fibonacci_sequence(6)))
+print (list(fibonacci_sequence()))
