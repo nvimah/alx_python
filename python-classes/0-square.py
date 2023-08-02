@@ -1,3 +1,6 @@
+"""
+ This is a class that contains a square and will be use as a refernce to all the class instances
+"""
 class Square:
     '''
     This is a class that contains a square and will be use as a refernce to all the class instances
@@ -17,4 +20,4 @@ my_square = Square
 '''
 This is used to calculete and return the value of the size
     '''
-print()
+
