@@ -17,3 +17,4 @@ my_square = Square
 '''
 This is used to calculete and return the value of the size
     '''
+print()
