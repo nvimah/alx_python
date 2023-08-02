@@ -4,4 +4,4 @@ class Square:
          #  Initializes the square with a given size.
           # Parameters:
             # size (int): The size of the square's side.
-        my_square = Square
+my_square = Square
