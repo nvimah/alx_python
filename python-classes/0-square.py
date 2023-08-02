@@ -1,4 +1,5 @@
 class Square:
     def __init__(self, _size):
         self._size = _size
-area = Square       
+My_square = Square (3)  
+print(My_square._size)    
