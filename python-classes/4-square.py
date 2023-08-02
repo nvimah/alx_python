@@ -1,4 +1,4 @@
-'''this is a square class with a size attribute and several instances or objects of the square class '''
+'''this is a square class with a size attribute and several instances or objects of the square class lorexvyqwqywzbqwuxbyuxbyxyuqyxzwygxyhyg237gxywqgdtywvbxyuhqebctvwetyivycvwetuvuqtgivugviegicvtgcvitcvtuev'''
 class Square:
     '''this is the first class named square that contains size attributes'''
     def __init__(self, size=0):
