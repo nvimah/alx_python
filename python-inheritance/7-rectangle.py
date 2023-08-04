@@ -27,7 +27,8 @@ class Rectangle(BaseGeometry):
      '''We use the integer_validator() method inherited from the BaseGeometry class to validate that width and height are positive integers.'''
     def area(self):
       return self.__width * self.__height
-    
+    '''this returns the area for the class'''
 
     def __str__(self):
       return f"[Rectangle] {self.__width}/{self.__height}" 
+    '''this prints the class string as specified'''
