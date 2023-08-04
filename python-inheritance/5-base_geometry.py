@@ -1,0 +1,17 @@
+'''This class contains a method area that raises an exception'''
+class BaseGeometry:
+    '''In this class, we define the area() method, and when this method is called, it raises an Exception with the specified message "area() is not implemented". '''
+    def area(self):
+     '''In this class, we define the area() method, and when this method is called, it raises an Exception with the specified message "area() is not implemented".'''
+     raise Exception("area() is not implemented")
+    '''this method defines a name attribute and a value attribute'''
+def integer_validator(self, name, value):
+ ''' we've added the integer_validator() method. This method takes two arguments: name (a string representing the name of the value being validated) and value (the value to be validated).'''
+ if not isinstance(value, int ):
+   '''The method checks if value is an integer using isinstance(value, int). If not, it raises a TypeError exception with the message "<name> must be an integer".'''
+   raise TypeError(f"{name} must be an integer")
+ '''Next, the method checks if the value is less than or equal to 0. If it is, it raises a ValueError exception with the message "<name> must be greater than 0".'''
+ if value<= 0:
+   raise ValueError(f"{name} must be greater than 0")
+ '''his integer_validator() method can be used by derived classes to validate integer inputs before performing any specific calculations related to the area or any other calculations.'''
+       
